@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container{
+   display:flex;
+   justify-content:center;
+   align-items:Center;
+   margin-top:18vh;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    padding:35px;
+    align-items:flex-start;
+    height:460px;
+    width:480px;
+    background-image: linear-gradient(0.5turn ,#19212E,#141D27  );
+    border-radius:20px;
+    gap:30px;
+}
+
+img{
+    width:30px;
+    height:30px;
+}
+
+.outlayer{
+    background:hsl(213, 19%, 18%);
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    display:grid;
+    place-items:Center;
+    color:hsl(217, 12%, 63%);
+    padding:10px;
+    font-size:20px;
+    font-weight:500;
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.info h2{
+    color:hsl(0, 0%, 100%);
+    font-size:32px;
+    font-weight: 700;
+}
+
+.info p{
+    color:hsl(217, 12%, 63%);
+    font-size:18px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-around;
+    gap:25px;
+}
+
+.submit{
+    border:none;
+    padding:10px;
+    width:400px;
+    height:50px;
+    border-radius:30px;
+    background: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    font-size:22px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+button:hover{
+    background:hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor:pointer;
+}
+
+.outlayer:hover{
+    background: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    cursor:pointer;
+}
+
+.card2{
+    align-items:center;
+}
+
+.thank{
+    height:150px;
+    width:200px;
+}
+
+.info2{
+    align-items:center;
+    text-align:center;
+}
+
+.btn{
+    margin:15px;
+    height:40px;
+    width:250px;
+    background:hsl(213, 19%, 18%);
+    border-radius:30px;
+    text-align:center;
+    padding:10px;
+    font-size:20px;
+    color:hsl(25, 97%, 53%);
+}
+
