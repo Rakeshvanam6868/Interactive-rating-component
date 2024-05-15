@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.PNG">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Interactive rating component</title>
   
@@ -12,7 +12,7 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="container">
+  <div class="rating">
     <div class="card">
       <div class="outlayer">
         <img src="./images/icon-star.svg" alt="">
@@ -23,24 +23,22 @@
           to help us improve our offering!</p>
       </div>
       <div class="buttons">
-        <button class="key outlayer">1</button>
-        <button class="key outlayer">2</button>
-        <button class="key outlayer">3</button>
-        <button class="key outlayer">4</button>
-        <button class="key outlayer">5</button>
+        <button id="1" class=" num outlayer">1</button>
+        <button id="1" class=" num outlayer">2</button>
+        <button id="1" class=" num outlayer">3</button>
+        <button id="1" class=" num outlayer">4</button>
+        <button id="1" class=" num outlayer">5</button>
       </div>
-      <button class="submit">SUBMIT</button>
+      <button id="sub" class="submit">SUBMIT</button>
     </div>
   </div>
-
-
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div class="container">
-    <div class="card2 card">
+  <div class="thankyou hidden">
+    <div class="card1">
       <img src="./images/illustration-thank-you.svg" alt="" class="thank">
-      <div class="btn">You selected <span>1</span> out of 5</div>
+      <div class="btn">You selected <span id="key">1</span> out of 5</div>
       <div class="info info2">
         <h2>Thank you!</h2>
         <p>We appreciate you taking the time to give a rating. If you ever need more support, 
@@ -48,8 +46,12 @@
       </div>
     </div>
   </div>
-  
+  <div class="footer">
+    <p>Developed by <span><a href="https://rakesh-portfolio-alpha.vercel.app/">Rakesh Vanam</a></span> </p>
+    <img src="./images/logo.PNG" alt="">
+  </div>
 
   <!-- Thank you state end -->
+  <script src="index.js"></script>
 </body>
 </html>
